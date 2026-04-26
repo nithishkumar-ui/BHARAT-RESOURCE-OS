@@ -1,0 +1,15 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "auth": {
+    "providers": {
+      "anonymous": false,
+      "emailPassword": true,
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "BHARAT ResourceOS",
+        "supportEmail": "nithishkumar9770@gmail.com"
+      }
+    }
+  }
+}
